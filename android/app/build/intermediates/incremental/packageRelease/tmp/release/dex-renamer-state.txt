@@ -1,0 +1,4 @@
+#Fri Jan 21 12:11:06 PET 2022
+base.0=/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

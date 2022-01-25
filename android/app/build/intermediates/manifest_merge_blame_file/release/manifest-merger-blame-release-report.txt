@@ -1,0 +1,119 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.inkambiaappmovil"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:6:5-39:19
+14        android:name="com.inkambiaappmovil.MainApplication"
+14-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:7:7-38
+15        android:allowBackup="false"
+15-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:11:7-34
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.3.1] /home/jean/.gradle/caches/transforms-2/files-2.1/3975ffd70914deb17405b14313b8e4ba/core-1.3.1/AndroidManifest.xml:24:18-86
+17        android:icon="@mipmap/ic_launcher"
+17-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:9:7-41
+18        android:label="@string/app_name"
+18-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:8:7-39
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:10:7-52
+20        android:theme="@style/AppTheme" >
+20-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:12:7-38
+21        <activity
+21-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:13:7-38:18
+22            android:name="com.inkambiaappmovil.MainActivity"
+22-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:14:9-37
+23            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+23-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:16:9-86
+24            android:label="@string/app_name"
+24-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:15:9-41
+25            android:launchMode="singleTask"
+25-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:17:9-40
+26            android:windowSoftInputMode="adjustResize" >
+26-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:18:9-51
+27            <intent-filter>
+27-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:19:9-22:25
+28                <action android:name="android.intent.action.MAIN" />
+28-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:20:13-65
+28-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:20:21-62
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:21:13-73
+30-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:21:23-70
+31            </intent-filter>
+32            <intent-filter>
+32-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:23:9-31:25
+33                <action android:name="android.intent.action.VIEW" />
+33-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:24:13-65
+33-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:24:21-62
+34
+35                <category android:name="android.intent.category.DEFAULT" />
+35-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:25:13-72
+35-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:25:23-69
+36                <category android:name="android.intent.category.BROWSABLE" />
+36-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:26:13-74
+36-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:26:23-71
+37
+38                <data android:scheme="https" />
+38-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:27:13-44
+38-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:27:19-41
+39                <data android:scheme="http" />
+39-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:27:13-44
+39-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:27:19-41
+40                <data android:scheme="app" />
+40-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:27:13-44
+40-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:27:19-41
+41                <data android:host="inkambio-front-dev.azurewebsites.net" />
+41-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:27:13-44
+41-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:30:19-70
+42            </intent-filter>
+43            <intent-filter>
+43-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:32:9-37:25
+44                <action android:name="android.intent.action.VIEW" />
+44-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:24:13-65
+44-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:24:21-62
+45
+46                <category android:name="android.intent.category.DEFAULT" />
+46-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:25:13-72
+46-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:25:23-69
+47                <category android:name="android.intent.category.BROWSABLE" />
+47-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:26:13-74
+47-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:26:23-71
+48
+49                <data android:scheme="inkambio" />
+49-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:27:13-44
+49-->/home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/android/app/src/main/AndroidManifest.xml:27:19-41
+50            </intent-filter>
+51        </activity>
+52
+53        <provider
+53-->[:react-native-image-picker] /home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
+54            android:name="com.imagepicker.ImagePickerProvider"
+54-->[:react-native-image-picker] /home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-63
+55            android:authorities="com.inkambiaappmovil.imagepickerprovider"
+55-->[:react-native-image-picker] /home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-71
+56            android:exported="false"
+56-->[:react-native-image-picker] /home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+57            android:grantUriPermissions="true" >
+57-->[:react-native-image-picker] /home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+58            <meta-data
+58-->[:react-native-image-picker] /home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-19:70
+59                android:name="android.support.FILE_PROVIDER_PATHS"
+59-->[:react-native-image-picker] /home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:17-67
+60                android:resource="@xml/imagepicker_provider_paths" />
+60-->[:react-native-image-picker] /home/jean/Documentos/Repositorios/IT_DATACONSULTING/inkambiaappmovil/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:17-67
+61        </provider>
+62    </application>
+63
+64</manifest>

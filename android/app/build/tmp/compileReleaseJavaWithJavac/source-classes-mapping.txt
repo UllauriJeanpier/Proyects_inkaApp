@@ -1,0 +1,9 @@
+com/inkambiaappmovil/MainApplication.java
+ com.inkambiaappmovil.MainApplication
+ com.inkambiaappmovil.MainApplication$1
+com/inkambiaappmovil/MainActivity.java
+ com.inkambiaappmovil.MainActivity
+com/inkambiaappmovil/BuildConfig.java
+ com.inkambiaappmovil.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
